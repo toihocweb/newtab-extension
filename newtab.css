@@ -1,0 +1,39 @@
+body{
+    overflow: hidden;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background: url('https://i.pinimg.com/originals/15/b2/c1/15b2c1278af49459d1934f93db5fec1a.jpg') no-repeat left center/cover;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+
+h1{
+    /* color: white; */
+    font-size: 10rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background: url('http://paperlief.com/images/dawn-wallpaper-2.jpg'); */
+    /* color: transparent; */
+    animation:  movebg 40s linear infinite;
+    font-weight: bold;
+    background: url(https://vignette.wikia.nocookie.net/my-hero-academia-fanon/images/a/a6/Light.png/revision/latest?cb=20190111005236);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes movebg{
+    0%{
+        background-position: 0% 30%;
+    }
+    100%{
+        background-position: 100% 50%;
+    }
+}
+
